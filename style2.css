@@ -1,0 +1,33 @@
+    nav {
+
+        background: hsl(197, 71%, 66%);
+        text-size-adjust: 10px;
+        position: absolute;
+        margin: 10px;
+
+    }
+
+    .navbar a {
+        color: white;
+    }
+
+    .navbar img {
+        height: 80px;
+        width: auto;
+
+    }
+
+    .nav-button {
+        width: 10px;
+    }
+
+    .nav ul li {
+        font-size: 10px;
+        color: rgb(240, 234, 234);
+
+    }
+
+    .nav-text {
+        color: rgb(247, 240, 240);
+    }
+     

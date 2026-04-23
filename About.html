@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+  <style>
+    * {
+      padding: 0%;
+      margin: 0%;
+    }
+
+    img {
+      width: 100%;
+      height: 600px;
+      text-align: center;
+      top: 5px;
+      background: rgb(247, 250, 241);
+    }
+
+
+
+    .img-small {
+      width: 100px;
+      height: 100px;
+    }
+
+    .img-medium {
+      width: 500px;
+      height: 300px;
+      border: 2px solid green;
+      float: right;
+    }
+
+
+
+    .frist-had {
+      font-size: 200px;
+    }
+
+    .h3 {
+      font-size: 30px;
+    }
+
+
+
+    .card .img-1 {
+      width: 160px;
+      height: 150px;
+      margin-right: 17px;
+    }
+
+    .card-text-2 h2 {
+      margin: 0;
+      font-size: 80px;
+    }
+
+    .card-text p {
+      margin-top: 5px;
+      font-size: 40px;
+    }
+
+    .card-text button {
+      width: 100px;
+      height: 70px;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      background: #fdfbfb;
+
+    }
+
+    .card img {
+      width: 200px;
+      height: 120px;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+
+    .card-text h3 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    .card-text p {
+      margin-top: 5px;
+      font-size: 20px;
+    }
+
+    .card-btn {
+      width: 170px;
+      height: 80px;
+      border-radius: 70px;
+      padding: 30px;
+      margin: 10px;
+      text-align: center;
+      /* text top: 30px; */
+    }
+
+    .footer {
+      background-color: #fbfcfb;
+      color: rgb(245, 243, 243);
+      padding: 40px 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-section {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+
+    .footer-section h2,
+    .footer-section h3 {
+      margin-bottom: 10px;
+    }
+
+
+    .footer-section a {
+      color: #f7f1f1;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .footer-section a:hover {
+      color: #f4f7f8;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      border-top: 1px solid #f1ecec;
+      margin-top: 20px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+
+    .footer {
+      background-color: #328db8;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-text {
+      color: #f3eeee;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- <img src="pic 3.jpg" class="img-small" alt="Small Image"> -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> SAME DAY <BR>LIFE QUOTES </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="e-project.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" id="services Dropdown" role="button"
+              data-bs-toggle="dropdown" aria-atomic="true">
+              Services
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="contant.html">Contant</a>
+          </li>
+        </ul>
+
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+    </div>
+  </nav>
+  <hr>
+  <br>
+
+  <!-- <h1 class="first-had" alt="first-had">Get Your Same <br>
+     Day Life <br>
+     Insurance Quote</h1>
+
+     <br>
+     <br>
+     
+     <h3>Protect your family's financial future in under 10 minutes. <br>
+       Competitive rates from top-rated carriers with many <br>
+         no-medical-exam options available</h3> -->
+  <br>
+  <br><br><br><br>
+
+
+  <div class="card.1">
+    <img src="pic4.jpg" class="img-medium" alt="Medium Image">
+
+    <div class="card-text-2">
+      <h2>Protecting what <br> matters most for <br> your family.</h2>
+      <p>Securing your family's future starts with a simple choice. <br> Our tailored insurance solutions provide a
+        safety net for what <br> matters most, ensuring your legacy is preserved across generations.</p>
+      <button class="card-btn">Read More</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <div class="card-container">
+
+    <div class="card">
+      <img src="pic5.jpg" alt="Image">
+      <div class="card-text">
+        <h3>Bsic plan 1</h3>
+        <p>Basic insurance theft and damage protection.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="ptoho.jpg" alt="Bike">
+      <div class="card-text">
+        <h3>Standrad Plan 2</h3>
+        <p>Accident + theft + third party coverage.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="pic7.jpg.png" alt="Image">
+      <div class="card-text">
+        <h3>Premium Plan 3</h3>
+        <p>Full protection + roadside accistance.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr>
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-section">
+        <h2> Insurance Company</h2>
+        <p>Protecting your future with trusted insurance plans.</p>
+      </div>
+
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Claims</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@insurance.com</p>
+        <p>Phone: +92 300 1234567</p>
+      </div>
+
+    </div>
+    <footer class="footer">
+      <p class="footer-text">
+        At Insurance Company, we are committed to providing reliable and affordable insurance
+        solutions to protect your life, health, and property. Your safety is our priority.
+      </p>
+    </footer>
+    <div class="footer-bottom">
+      <p>© 2026 Insurance Compnay. All rights reserved.</p>
+    </div>
+    in
+  </footer>
+
+
+</body>
+
+</html>
+<script src="script.js"></script>

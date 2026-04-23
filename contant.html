@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTANT/ Information Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style2.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      /* box-sizing: border-box; */
+      font-family: Arial, sans-serif;
+    }
+
+
+
+    body {
+      background: #c7e9be;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 500px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .container input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .footer {
+  background: #23a1a1;
+  color: #fff;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  width: 250px;
+  margin: 10px;
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  color: #041e29;
+}
+
+.footer-box p,
+.footer-box a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-box a:hover {
+  color: #00c6ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #3a91ca;
+  padding-top: 15px;
+}
+  </style>
+</head>
+
+<body>
+  <div id="nav"></div>
+  <hr>
+  <div class="container">
+    <h2>User Information</h2>
+
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[A-Za-z]{3,15}"
+        title="Enter vaild Name e.g. Ali" required>
+
+      <label for="name">LAST Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[A-Za-z]{5,15}"
+        title="Enter vaild Name e.g. shahid " required>
+
+
+      <label for="name">E-Mail</label>
+      <input type="text" id="name" name="name" placeholder="E-Mail" title="Enter vaild E-Mail e.g. ali@gmail.com"
+        required>
+
+
+      <label for="address">Message</label>
+      <textarea id="address" name="M" rows="4" placeholder="Message" class="form control"></textarea>
+      <input type="submit" class="send-btn" "send message">
+
+    </form>
+  </div>
+  <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+      <p>Email: support@insurance.com</p>
+      <p>Phone: +92 300 1234567</p>
+      <p>Address: Karachi, Pakistan</p>
+    </div>
+
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Insurance Company | All Rights Reserved</p>
+  </div>
+</footer>
+
+</body>
+
+</html>
+<script src="script.js"></script>
